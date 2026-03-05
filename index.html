@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,10 @@
 <title>Santiago Alzate | Frontend Developer</title>
 
 <link rel="stylesheet" href="style.css">
+
+<!-- ICONOS -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
@@ -17,7 +22,7 @@
 <h2 class="logo">Santiago.dev</h2>
 
 <ul class="nav-links">
-<li><a href="#">Home</a></li>
+<li><a href="#home">Home</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
@@ -25,51 +30,61 @@
 
 </nav>
 
-<section class="hero">
+<section id="home" class="hero">
 
-<h1>Hi, I'm Santiago Alzate</h1>
+<h1>Santiago Alzate</h1>
 
 <p>
-Junior Front-End Developer passionate about building modern
+Junior Frontend Developer building modern
 and responsive web applications.
 </p>
 
 <a href="#projects">
-<button>View Projects</button>
+<button class="btn">View Projects</button>
+</a>
+
+<a href="#">
+<button class="btn-outline">Download CV</button>
 </a>
 
 </section>
 
-<section id="skills" class="services">
+<section id="skills" class="skills">
 
-<div class="card">
-<h3>Front-End</h3>
-<p>HTML, CSS, JavaScript, React, TailwindCSS, Bootstrap</p>
+<h2>Technologies</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<p>HTML</p>
 </div>
 
-<div class="card">
-<h3>Back-End</h3>
-<p>Java Spring Boot, Python and PHP</p>
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<p>CSS</p>
 </div>
 
-<div class="card">
-<h3>Databases</h3>
-<p>SQL, PostgreSQL and SQLite</p>
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<p>JavaScript</p>
 </div>
 
-<div class="card">
-<h3>Tools</h3>
-<p>Git, GitHub, Figma</p>
+<div class="skill-card">
+<i class="fab fa-react"></i>
+<p>React</p>
 </div>
 
-<div class="card">
-<h3>Learning</h3>
-<p>Improving React and modern UI design</p>
+<div class="skill-card">
+<i class="fab fa-git-alt"></i>
+<p>Git</p>
 </div>
 
-<div class="card">
-<h3>Workflow</h3>
-<p>Clean code and responsive design</p>
+<div class="skill-card">
+<i class="fab fa-github"></i>
+<p>GitHub</p>
+</div>
+
 </div>
 
 </section>
@@ -87,7 +102,7 @@ and responsive web applications.
 <p>Personal portfolio to showcase my development projects.</p>
 
 <a href="https://github.com/Alzate08" target="_blank">
-View Code
+View Project
 </a>
 
 </div>
@@ -96,10 +111,10 @@ View Code
 
 <h3>Landing Page</h3>
 
-<p>Modern responsive landing page with animations.</p>
+<p>Modern responsive landing page design.</p>
 
 <a href="https://github.com/Alzate08" target="_blank">
-View Code
+View Project
 </a>
 
 </div>
@@ -108,10 +123,10 @@ View Code
 
 <h3>Website Clone</h3>
 
-<p>Recreation of a popular website layout using HTML and CSS.</p>
+<p>Clone of a popular website using HTML and CSS.</p>
 
 <a href="https://github.com/Alzate08" target="_blank">
-View Code
+View Project
 </a>
 
 </div>
@@ -127,38 +142,29 @@ View Code
 <div class="contact-container">
 
 <div class="contact-card">
-<h3>Email</h3>
-<p>
-<a href="mailto:sanalzrami@gmail.com">
-sanalzrami@gmail.com
-</a>
-</p>
+<i class="fa-solid fa-envelope"></i>
+<p>sanalzrami@gmail.com</p>
 </div>
 
 <div class="contact-card">
-<h3>Location</h3>
-<p>Manizales, Colombia 🇨🇴</p>
+<i class="fa-solid fa-location-dot"></i>
+<p>Manizales, Colombia</p>
 </div>
 
 <div class="contact-card">
-<h3>GitHub</h3>
-<p>
-<a href="https://github.com/Alzate08" target="_blank">
-github.com/Alzate08
-</a>
-</p>
+<i class="fab fa-github"></i>
+<p>github.com/Alzate08</p>
 </div>
 
 </div>
 
 </section>
 
-<footer class="footer">
+<footer>
 
-<p>© 2026 Santiago Alzate | Front-End Developer</p>
+<p>© 2026 Santiago Alzate | Frontend Developer</p>
 
 </footer>
 
 </body>
-</html>
 </html>
