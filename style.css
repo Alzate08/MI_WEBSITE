@@ -15,7 +15,154 @@ justify-content:space-between;
 align-items:center;
 padding:20px 40px;
 background:#111;
+color:white;*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+color:#6a5acd;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(90deg,#6a5acd,#8a2be2);
 color:white;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:white;
+color:black;
+font-weight:bold;
+cursor:pointer;
+border-radius:6px;
+transition:0.3s;
+}
+
+.hero button:hover{
+transform:scale(1.05);
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+padding:80px 10%;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* PROJECTS */
+
+.projects{
+padding:80px 10%;
+text-align:center;
+}
+
+.project-container{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.project-card{
+background:white;
+padding:25px;
+width:260px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-card a{
+display:inline-block;
+margin-top:10px;
+text-decoration:none;
+color:#6a5acd;
+font-weight:bold;
+}
+
+/* CONTACT */
+
+.contact{
+padding:80px 10%;
+text-align:center;
+}
+
+.contact-container{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.contact-card{
+background:white;
+padding:25px;
+width:220px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+
+.footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
 }
 
 .nav-links{
@@ -126,4 +273,11 @@ transform:translateY(-5px);
 text-decoration:none;
 color:#0077ff;
 font-weight:bold;
+}
+.footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
